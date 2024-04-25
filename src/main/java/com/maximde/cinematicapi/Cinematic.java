@@ -89,6 +89,7 @@ public class Cinematic {
     @Setter
     public static class Settings {
         private int fov = 0;
+        private int startDelay = 0;
         /**
          * This world is applied to all locations in the scenes
          */
